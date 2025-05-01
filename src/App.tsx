@@ -1,13 +1,16 @@
-import "./App.css";
+import { Flex } from "@mantine/core";
+import Footer from "./components/footer";
+import Header from "./components/header";
+import Main from "./components/main";
 
 const App = () => {
   return (
-    <>
-      <div>dwadadawd</div>
-      <div>fefef</div>
-      <div>fefefef</div>
-    </>
+    <Flex direction="column" mih="100vh">
+      <Header />
+      <Main />
+      <Footer />
+    </Flex>
   );
-}
+};
 
 export default App;
